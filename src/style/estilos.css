@@ -1,0 +1,169 @@
+/* * {
+    box-sizing: border-box;
+  } */
+ 
+ 
+  
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  
+  .outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .innerr {
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+    margin-top: 15vh;
+  }
+  
+  .outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  
+  .outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  }
+  
+  .navlink {
+    color: black !important;
+    text-decoration: none !important;
+    }
+
+    .aclaracion {
+      font-size: 13px;
+      padding: 10px;
+      color: black;
+      font-weight: bold;
+
+    }
+
+    .btn-light {
+      width: 100px !important;
+    }
+
+    .form-label {
+      text-align: center !important;
+      margin: 10px;
+      font-weight: bold;
+    }
+   
+    .egreso {
+      color: red;
+    }
+
+    .ingreso {
+      color: green;
+    }
+
+  .ingresar input {
+width: 80% !important;
+margin: auto;
+  }
+
+  .grupobtn {
+    margin: auto;
+  }
+
+  .right {
+    margin-left: 8% !important;
+  }
+
+  .enviar {
+    margin-top: 20px;
+    position: relative!important;
+    margin-left: 40px;
+  }
+
+  .form-label {
+padding: 5px;
+color: #3f51b5;
+font-size: 1rem;
+/* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.0075em;
+
+  }
+
+  
+
+  .floatrelative {
+    position: absolute;
+    right: 0;
+  }
+
+  .cancelar {
+  
+    font-size: 10px !important;
+  }
+
+  .fecha {
+    width: 200px !important;
+
+
+  }
+.user {
+  font-size: 12px !important;
+  color:Red !important;
+}
+
+
+.react-datepicker__input-container {
+  width: inherit !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+.picker {
+  padding: 20px !important;
+}
+
+.container1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px !important;
+  width: 100% !important;
+  height: 450px !important;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.butons {
+  display: flex;
+}
+
+.datepicker__day--in-range {
+  background-color: red !important;
+}
