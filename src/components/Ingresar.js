@@ -71,15 +71,15 @@ const Ingresar = (props) => {
             }
         }).then(r => r.json())
             .then(usuario => {
-                /*  window.location.reload(false); */
-                fetch(`${url}/datos`, {
+                 window.location.reload(false); 
+              /*   fetch(`${url}/datos`, {
                 }).then(r => r.json())
                     .then(res => {
                         props.dispatch({
                             type: 'GET_ITEMS',
                             payload: res
                         })
-                    })
+                    }) */
 
 
             })
