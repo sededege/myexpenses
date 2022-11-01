@@ -265,7 +265,7 @@ const EnhancedTable = (props) => {
     const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
     const borrar = id => {
         let idboton = id.target.value;
-        fetch(`http://localhost:3000/${idboton}`, {
+        fetch(`https://my-expenses-five.vercel.app/${idboton}`, {
             method: "DELETE"
         }).then(r => r.json())
             .then(usuario => {
